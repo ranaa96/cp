@@ -62,7 +62,7 @@
                     var a = { namespace: k, id: "iframe-ready" };
                     parent.postMessage(JSON.stringify(a), "*");
                 }
-                var k = "cross-domain-tpcp-message",
+                var k = "cross-domain-pa-cp-message",
                     l = { namespace: k };
                 window.addEventListener ? window.addEventListener("message", i, !1) : window.attachEvent("onmessage", i), j();
             })();
